@@ -1,0 +1,213 @@
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+.hide{
+    display: none;
+}
+#header {
+    transition: all 1500ms;
+}
+
+.containers{
+    border: 0px solid rgba(0,0,0,.5);
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding: 0px;
+    /*background-color: blue;*/
+}
+.box{   
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid #6A080C;
+}
+
+
+/*containers play and box*/
+
+.containers-play{
+    /*background-color: blue;*/
+    border:0px solid rgba(0,0,0,.5);
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -240px;
+    text-align: center;
+    padding:40px;
+    display: table;
+}
+
+.box-play{   
+    /*background-color: #fff;*/
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border:0px solid #6A080C;
+}
+
+.container-img{
+    padding: 15px;
+}
+.div-img-pizza{
+    float: left;
+    margin:4px;
+}
+
+.img-play-pizza{
+    width: 180px;
+    
+}
+
+.countdown{
+    color: #E33225;
+    font-size: 20px;
+}
+/* this is button start*/
+.btn-start {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+    box-shadow:inset 0px 1px 0px 0px #f5978e;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+    background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+    background-color:#f24537;
+    -webkit-border-top-left-radius:20px;
+    -moz-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    -moz-border-radius-topright:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+    border:1px solid #d02718;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial Black;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:50px;
+    line-height:50px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:4px 1px 0px #810e05;
+}
+.btn-start:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+    background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+    background-color:#c62d1f;
+}.btn-start:active {
+    position:relative;
+    top:1px;
+}
+/* ---------------- */
+.span {
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+.p {
+    font-size: 25px;
+    color: #E33225;
+    font-family:Arial Black;
+    font-weight:bold;
+    font-style:normal;
+}
+
+/*this is media query*/
+
+@media Screen and (min-width: 442px) and (max-width: 480px){
+    .containers-play{
+        width: 100%;
+        top:0px;
+        left: 0%;
+        margin-left: 0px;
+    }
+    .head-content{
+        padding: 10px;
+        /*background-color: blue;*/
+    }
+
+    .container-img{
+        padding: 25px;
+    }
+    .div-img-pizza{
+        margin: 2px;
+    }
+
+    .img-play-pizza{
+        width: 150px;
+    }
+}
+
+@media Screen and (min-width: 352px) and (max-width: 441px){
+    .containers-play{
+        width: 100%;
+        top:0;
+        left:0;
+        margin-left: 0px;
+    }
+
+    .box-play{
+        border: 10px solid #6A080C;
+    }
+
+    .head-content{
+        margin: auto;
+        padding: 11px;
+        /*background-color: blue;*/
+    }
+
+    .container-img{
+        padding: 0px;
+    }
+    .img-play-pizza{
+        width: 110px;
+    }
+}
+
+@media Screen and (min-width: 241px) and (max-width: 351px){
+    .container-img {
+        padding: 85px;
+        margin-top: -80px;
+    }
+
+    .div-img-pizza {
+        margin:10px;
+    }
+
+    .img-play-pizza{
+        width: 100px;
+    }
+}
+
+@media Screen and (min-width: 100px) and (max-width: 240px){
+    .container-img {
+        padding: 105px;
+        margin-top: -90px;
+    }
+
+    .div-img-pizza {
+        margin:4px;
+    }
+
+    .img-play-pizza {
+        width: 85px;
+    }
